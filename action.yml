@@ -1,0 +1,5 @@
+name: 'Go mod tidy sum checker'
+description: 'Checks  `go mod tidy` has been applied.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
